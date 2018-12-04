@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 3200px;
+    font-family: 'Marmelad', sans-serif;
+}
+
+.horizontal-scroll-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 80px;
+    white-space: nowrap
+}
+
+.bg-color {
+    background-color: black;
+}
+
+.bg-font {
+    color: white;
+}
+
+.underline-dash {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+
+.intro-font {
+    color: black;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+#logo-img {
+    background-image: url("../images/mylogoDesignDec2018.png");
+    background-size: contain;
+    /* height: 100%;
+    width: 100%; */
+    background-repeat: no-repeat;
+}
+
+#logo-img:hover {
+    background-image: url("../images/mylogoDesignDec2018-hover.png");
+    /* height: 100%;
+    width: 100%; */
+}
+
+@keyframes animate {
+    from {
+        background-position: 0px 0px;
+    }
+
+    to {
+        background-position: 100% 0px;
+    }
+
+}
+
+@-webkit-keyframes animate {
+    from {
+        background-position: 0px 0px;
+    }
+
+    to {
+        background-position: 100% 0px;
+    }
+}
+
+
+.bg-line {
+    position: relative;
+    background: url("../images/line3.png");
+    height: 25vh;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    animation: animate 10s linear forwards;
+    -webkit-animation: animate 10s linear forwards;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-out;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.bg-line-midline {
+    position: relative;
+    background: url("../images/line3.png");
+    height: 25vh;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    animation: animate 10s linear forwards;
+    -webkit-animation: animate 10s linear forwards;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-out;
+    z-index: 1;
+    opacity: 0.3;
+}
