@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    width: 3200px;
+    width: 100%;
     font-family: 'Marmelad', sans-serif;
+
 }
 
 .horizontal-scroll-wrapper {
@@ -36,8 +37,8 @@ a:hover {
 #logo-img {
     background-image: url("../images/mylogoDesignDec2018.png");
     background-size: contain;
-    /* height: 100%;
-    width: 100%; */
+    height: 50%;
+    width: auto;
     background-repeat: no-repeat;
 }
 
@@ -72,9 +73,10 @@ a:hover {
 .bg-line {
     position: relative;
     background: url("../images/line3.png");
-    height: 25vh;
+    height: 80vh;
     background-size: cover;
     background-position: 0px 0px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     animation: animate 10s linear forwards;
     -webkit-animation: animate 10s linear forwards;
