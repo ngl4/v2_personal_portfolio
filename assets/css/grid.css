@@ -44,12 +44,89 @@
     min-width: 250px;
 }
 
+@media only screen and (max-width: 577px) {
+    .content-box {
+        grid-column-start: 3;
+        grid-column-end: 10;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        min-width: 250px;
+        /* margin-left: -25px !important; */
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .content-box {
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        min-width: 250px;
+        /* margin-left: -25px !important; */
+    }
+}
+
 .content-logo {
     grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start: 4;
     grid-row-end: 6;
     min-width: 250px;
+}
+
+@media only screen and (max-width: 1380px) {
+    .content-logo {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        min-width: 250px;
+        margin-left: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 1114px) {
+    .content-logo {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        min-width: 250px;
+        margin-left: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 887px) {
+    .content-logo {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        min-width: 250px;
+        margin-left: -1px !important;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .content-logo {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        min-width: 250px;
+        margin-left: -15px !important;
+    }
+}
+
+@media only screen and (max-width: 577px) {
+    .content-logo {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        min-width: 250px;
+        margin-left: -35px !important;
+    }
 }
 
 .content-logo-about {
@@ -91,7 +168,7 @@
     grid-column-end: 10;
     grid-row-start: 3;
     grid-row-end: 7;
-    
+
 }
 
 /* .icon-container {
